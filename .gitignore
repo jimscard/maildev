@@ -10,3 +10,5 @@ maildev-*
 
 # Ignore npm debug log
 npm-debug.log
+sonar-project.properties
+.scannerwork
