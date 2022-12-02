@@ -12,3 +12,4 @@ maildev-*
 npm-debug.log
 sonar-project.properties
 .scannerwork
+.vagrant
