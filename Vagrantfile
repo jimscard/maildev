@@ -8,7 +8,7 @@ Vagrant.configure("2") do |config|
         "MAILDEV_MAIL_DIRECTORY" => "/tmp/maildirectory"
       }
       config.vm.synced_folder "/Users/jimscard/maildev-mail","/tmp/maildirectory"
-      # d.ports = "1080:1080","25:1025"
+      d.ports = "1080:1080","25:1025"
       d.name = "maildev"
     end
   end
